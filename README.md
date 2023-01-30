@@ -15,8 +15,8 @@ has_labels: False   (if you have labeled dataset, change it to True)
 ```
 dataset
 |── images
-|   |   |── unique_img_name_1.jpg
-|   |   └── unique_img_name_2.jpg
+|   |── unique_img_name_1.jpg
+|   └── unique_img_name_2.jpg
 └── label
     |── unique_img_name_1.png
     └── unique_img_name_2.png
