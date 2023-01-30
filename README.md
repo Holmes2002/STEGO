@@ -48,5 +48,4 @@ Fine-tune with 2k my labled images.
   <img src="images/23000.png" width="320" height="320" title="hover text">
   <img src="images/23100.png" width="320" height="320" title="hover text">
   <img src="images/275700.png" width="320" height="320" title="hover text">
-  <img src="images/29900.png" width="320" height="320" title="hover text">
 </p>
