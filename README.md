@@ -39,4 +39,8 @@ Change use_label to True.
 ```
 python linear.py
 ```
-```
+
+## 3. Experiment
+I trained with 70k images ( unlabeled 50k + labeled 19k ( manual label ~ 2k and LIP dataset 17k ))
+Fine-tune with 2k my labled images. 
+
