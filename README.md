@@ -17,7 +17,7 @@ dataset
 |── images
 |   |── unique_img_name_1.jpg
 |   └── unique_img_name_2.jpg
-└── label
+└── labels
     |── unique_img_name_1.png
     └── unique_img_name_2.png
 ```
@@ -26,6 +26,8 @@ Don't have labeled dataset. Label folder will be empty.
 
 ## 2. Training
 ### Pre-compute KNNs
+Change list dataset_names = ["directory"] and crop_types = ["five"]
+Recommend using five instead of None.
 ```
 python precompute_knns.py
 ```
@@ -39,6 +41,7 @@ Change use_label to True.
 ```
 python linear.py
 ```
+#### Tips: Only change Head Segmentation until loss can't decrease. Start training on all parameters of model.
 
 ## 3. Experiment
 I trained with 70k images ( unlabeled 50k + labeled 19k ( manual label ~ 2k and LIP dataset 17k ))
