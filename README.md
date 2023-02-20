@@ -36,8 +36,8 @@ python precompute_knns.py
 python train_segmentation.py
 ```
 ### Fine-tune
-Now, I add some conv and classifier and training with labeled dataset.
 Change use_label to True.
+
 ```
 python linear.py
 ```
