@@ -54,3 +54,27 @@ Fine-tune with 2k my labled images.
 </p>
 
 #### You can check example in [Colab](STEGO.ipynb)
+
+## 4.Deploy
+
+### Onnx
+```
+python export_onnx.py
+```
+### Tensorrt
+```
+  /usr/src/tensorrt/bin/trtexec --onnx=STEGO.onnx \
+                                --saveEngine=STEGO-fp16.trt \
+                                --explicitBatch \
+                                --minShapes=input:1x3x224x224 \
+                                --optShapes=input:1x3x224x224 \
+                                --maxShapes=input:1x3x224x224 \
+                                --verbose \
+                                --fp16 \
+                                --device=0
+```
+
+Check deploy Tensorrt :
+```
+python infer_tensorrt.py
+```
