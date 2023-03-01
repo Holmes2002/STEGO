@@ -35,6 +35,8 @@ python precompute_knns.py
 python train_segmentation.py
 ```
 ### Fine-tune
+Add your path checkpoint to line 24 in file linear.py
+comment 'assert len(self.dataset) == self.nns.shape[0]' in line 548 file data.py
 ```
 python linear.py
 ```
@@ -49,3 +51,4 @@ Fine-tune with 2k my labled images.
   <img src="images/23100.png" width="320" height="320" title="hover text">
   <img src="images/275700.png" width="320" height="320" title="hover text">
 </p>
+### You can check example in [Here]
