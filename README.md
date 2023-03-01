@@ -47,9 +47,10 @@ I trained with 70k images ( unlabeled 50k + labeled 19k ( manual label ~ 2k and 
 Fine-tune with 2k my labled images. 
 
 <p align="center">
-  <img src="images/23000.png" width="320" height="320" title="hover text">
-  <img src="images/23100.png" width="320" height="320" title="hover text">
-  <img src="images/275700.png" width="320" height="320" title="hover text">
+  <img src="images/2100.png" width="224" height="224" title="hover text">
+  <img src="images/18400.png" width="224" height="224" title="hover text">
+  <img src="images/21000.png" width="224" height="224" title="hover text">
+    <img src="images/104200.png" width="224" height="224" title="hover text">
 </p>
 
 #### You can check example in [Colab](STEGO.ipynb)
