@@ -36,6 +36,7 @@ python train_segmentation.py
 ```
 ### Fine-tune
 Add your path checkpoint to line 24 in file linear.py
+
 Comment 'assert len(self.dataset) == self.nns.shape[0]' in line 548 file data.py
 ```
 python linear.py
