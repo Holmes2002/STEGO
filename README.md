@@ -79,3 +79,15 @@ Check deploy Tensorrt :
 ```
 python infer_tensorrt.py
 ```
+
+## 5.Distillation
+```
+git clone 'https://github.com/fregu856/deeplabv3.git'
+```
+Choose ResNer-34 for backbone of Student model
+```
+python distill_model.py
+```
+
+
+
